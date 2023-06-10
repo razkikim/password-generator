@@ -22,7 +22,7 @@ function getPassword() {
     if (passwordLength.value > 100) {
         alert("Jumlah Tidak Boleh Melebihi 100")
         return
-    } else if (passwordLength.value == 0 && passwordLength.value <= 0) {
+    } else if (passwordLength.value == 0 || passwordLength.value <= 0) {
         alert("Jumlah Tidak Valid")
         return
     }
